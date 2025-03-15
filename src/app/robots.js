@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: "*",
       },
     ],
-    sitemap: "https://abjt.dev/sitemap.xml",
-    host: "https://abjt.dev",
+    sitemap: "",
+    host: "",
   };
 }

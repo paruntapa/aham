@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { data } from "./resume_data";
+import { Span } from "next/dist/trace";
 
 export default function Education() {
   return (
@@ -20,7 +22,8 @@ export default function Education() {
                   {degree} in {course}
                 </h3>
                 <p className="text-sm text-neutral-500">
-                  {school} / {date}
+                  {index === 0 ? <span> <Link href={"https://x.com/kirat_tw"}>{school}</Link> {date}</span> : <span>{school} / {date}</span>}
+                  
                 </p>
               </div>
             </div>

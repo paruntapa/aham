@@ -1,45 +1,18 @@
 export const data = {
-  experience: [
-    {
-      company: "AvenueHQ",
-      role: "Junior Full Stack Engineer",
-      location: "Vancouver, Canada",
-      date: "2022",
-      description: [
-        "Worked on a digital marketing tool for realtors through North America.",
-        "Built a performant client facing API-driven application in React.",
-        "Used Laravel and SQL to build fast, efficient and scalable databases and APIs.",
-        "Collaborated across internal teams to clarify requirements, explore issues, provide updates, and present discoveries.",
-      ],
-      technologies: ["React", "Laravel", "MySQL", "Wordpress"],
-    },
-    {
-      company: "Outlined.co",
-      role: "Software Engineer",
-      location: "Bengaluru, India",
-      date: "2019 - 2020",
-      description: [
-        "Developed and maintained the company’s product marketing website and flagship design platform using FabricJS and Laravel.",
-        "Built a PDF to HTML canvas converter using JavaScript and Shell Scripting to import and export design files on the browser.",
-        "Implemented API Integration for data storage, social media interaction, text sentimental analysis, and stock image services.",
-      ],
-      technologies: ["Laravel", "MySQL", "FabricJS", "Shell Scripting"],
-    },
-  ],
   education: [
     {
-      school: "Langara College",
-      degree: "PG Diploma",
-      course: "Web and Mobile App Design and Development",
-      location: "Vancouver, Canada",
-      date: "2020 - 2022",
+      school: "By Harkirat",
+      degree: "Web Development, Web3, DevOps",
+      course: "Cohort 3",
+      location: "India",
+      date: "2024 - 2025",
     },
     {
-      school: "Manipal University Jaipur",
-      degree: "Bachelor of Technology",
+      school: "Sri Guru Ram Rai University",
+      degree: "Bachelor of Science",
       course: "Information Technology",
-      location: "Jaipur, India",
-      date: "2015 - 2019",
+      location: "Dehradun, India",
+      date: "2022 - 2025", 
     },
   ],
   certifications: [
@@ -52,19 +25,15 @@ export const data = {
   socialLinks: [
     {
       name: "GitHub",
-      url: "https://github.com/abjt14",
+      url: "https://github.com/paruntapa",
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/abjt14",
+      url: "https://www.linkedin.com/in/anuj-kumar-73b1b5321/",
     },
     {
-      name: "CodePen",
-      url: "https://codepen.io/abjt14",
-    },
-    {
-      name: "ArtStation",
-      url: "https://www.artstation.com/abjt14",
+      name: "X",
+      url: "https://x.com/tel_zac",
     },
   ],
 };

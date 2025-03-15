@@ -6,23 +6,15 @@ export default function MobileSocialLink({ type }) {
 
   switch (type) {
     case "github":
-      href = "https://github.com/abjt14";
+      href = "https://github.com/paruntapa";
       label = "GitHub";
       break;
     case "linkedin":
-      href = "https://www.linkedin.com/in/abjt14/";
+      href = "https://www.linkedin.com/in/anuj-kumar-73b1b5321/";
       label = "LinkedIn";
       break;
-    case "codepen":
-      href = "https://codepen.io/abjt14";
-      label = "CodePen";
-      break;
-    case "artstation":
-      href = "https://www.artstation.com/abjt14";
-      label = "ArtStation";
-      break;
     case "x":
-      href = "https://x.com/abjt14";
+      href = "https://x.com/tel_zac";
       label = "X";
       break;
   }

@@ -6,19 +6,16 @@ export default function SocialMenu() {
   return (
     <MenuWrapper showOnMobile={false}>
       <div className="flex items-center justify-between gap-2 sm:gap-4 rounded-full py-1 px-3 sm:px-4 text-neutral-600 dark:text-neutral-400">
-        <LinkWrapper href="https://github.com/abjt14" label="github">
+        <LinkWrapper href="https://github.com/paruntapa" label="github">
           <GithubIcon />
         </LinkWrapper>
         <LinkWrapper
-          href="https://www.linkedin.com/in/abjt14/"
+          href="https://www.linkedin.com/in/anuj-kumar-73b1b5321/"
           label="linkedin"
         >
           <LinkedInIcon />
         </LinkWrapper>
-        <LinkWrapper href="https://codepen.io/abjt14" label="codepen">
-          <CodePenIcon />
-        </LinkWrapper>
-        <LinkWrapper href="https://x.com/abjt14" label="x">
+        <LinkWrapper href="https://x.com/tel_zac" label="x">
           <XIcon />
         </LinkWrapper>
         <BottomStaticGlare />

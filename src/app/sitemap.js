@@ -2,7 +2,7 @@ import { experiments } from "@/data/experiments";
 
 export default async function sitemap() {
   let routes = ["", "/lab", "/about"].map((route) => ({
-    url: `https://abjt.dev${route}`,
+    url: `  `,
     lastModified: new Date().toISOString().split("T")[0],
   }));
 
@@ -11,7 +11,7 @@ export default async function sitemap() {
   );
 
   let experimentPages = filteredExperiments.map((experiment) => ({
-    url: `https://abjt.dev/lab/${experiment.slug}`,
+    url: ``,
     lastModified: experiment.publishedAt,
   }));
 

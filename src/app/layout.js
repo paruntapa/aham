@@ -11,27 +11,27 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: {
-    default: "abjt . web developer . digital artist",
-    template: "%s | abjt . web developer . cg artist",
+    default: "anuj . web developer . digital artist",
+    template: "%s | anuj . web developer . cg artist",
   },
   description: "Crafting engaging experiences for the internet.",
   openGraph: {
-    title: "abjt . web developer . digital artist",
+    title: "anuj . web developer . digital artist",
     description: "Crafting engaging experiences for the internet.",
-    url: "https://abjt.dev/",
+    url: "",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://abjt.dev/og/og-medium.png",
-        alt: "abjt . web developer . digital artist",
+        url: "",
+        alt: "anuj . web developer . digital artist",
         width: 1440,
         height: 810,
       },
     ],
   },
   twitter: {
-    title: "abjt . web developer . digital artist",
+    title: "anuj . web developer . digital artist",
     description: "Crafting engaging experiences for the internet.",
     card: "summary_large_image",
   },
