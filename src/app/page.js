@@ -5,9 +5,8 @@ import DashedLine from "@/components/DashedLine";
 import MobileSocialLink from "@/components/MobileSocialLink";
 
 export default function Home() {
-  
   return (
-    <main className="relative flex justify-center h-screen w-full items-start sm:items-center lg:items-start pt-14 sm:pt-0 lg:pt-[6.75rem] pb-28 sm:pb-16 lg:pb-0 px-4 sm:px-8 md:px-20 lg:px-0">
+    <main className="relative min-h-svh flex justify-center w-full items-start sm:items-center lg:items-start pt-14 sm:pt-0 lg:pt-[6.75rem] pb-28 sm:pb-16 lg:pb-0 px-4 sm:px-8 md:px-20 lg:px-0">
       <div className="relative h-full w-full max-w-screen-md flex flex-col justify-start items-center gap-0">
         <div className="h-32 w-full flex justify-between items-center">
           <div className="hidden sm:block h-full w-32 p-0.5 relative">
@@ -15,7 +14,6 @@ export default function Home() {
               slug="hold-to-submit"
               className="opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-400"
             />
-           
           </div>
           <div className="hidden lg:block h-full w-32 relative">
             <DashedLine direction="vertical" className="left-0 block" />
@@ -92,7 +90,7 @@ export default function Home() {
           <div className="h-32 hidden lg:block"></div>
           <div className="block col-span-2 row-span-2 sm:flex items-center p-0.5 relative">
             <VideoLink
-              slug="searchlight"
+              slug="polyrhythmic-rings"
               className="opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-100"
             />
             <DashedLine
@@ -129,7 +127,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-0 sm:block">
               <div className="p-0.5">
                 <VideoLink
-                  slug="neon-components"
+                  slug="card-stack"
                   className="block sm:hidden opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-400"
                 />
                 <VideoLink
@@ -158,7 +156,7 @@ export default function Home() {
               <div></div>
               <div className="p-0.5">
                 <VideoLink
-                  slug="combat"
+                  slug="card-stack"
                   className="hidden sm:block opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-500"
                 />
                 <VideoLink

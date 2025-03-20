@@ -44,6 +44,7 @@ export const experiments = [
     technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "SVG"],
     attributes: null,
   },
+  
   {
     slug: "cuberto-agency",
     name: "Cuberto Agency",
@@ -73,7 +74,28 @@ export const experiments = [
     ],
     attributes: null,
   },
-  
+  {
+    slug: "polyrhythmic-rings",
+    name: "Polyrhythmic Rings",
+    type: "external",
+    href: {
+      url: "https://polyrhythmic-rings.vercel.app/",
+      type: "production",
+    },
+    preview: {
+      base: {
+        type: "video",
+        width: 864,
+        height: 540,
+        placeholder:
+          "data:image/webp;base64,UklGRroEAABXRUJQVlA4WAoAAAAgAAAAVQAANQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDggzAIAABAQAJ0BKlYANgA+KRKHQiGhC1WaSAwBQlpard/+Yjr8C6AG7DLAriPWglvDK/+z52vcv1Uf9r2APRN/W4NLBAwCxTf2SUY2HsMPxWF+84Nds7tOmxfjajyfoVLbfbzGdyvjoSy+YEPTD0RNU8v1X7Er86pdQZhTt8OKbikf/2VbSGhjv+Sl7wsAAP7+kdzLISkgZ32fNYfHsMG8YL5swt2wz/ai3XpLjuJwJxxU0I+5KD/QZd3sG7gqktYs25Y+VldzQ/09Vmt+SwsoeGPE7+tBtkLEwv0H+EwjEGk4uFmQWYKLvzyTZLyO6wV1vAcqHKGTqrenoUlwCg+Hz96EVK7O8DnTEAXtAiQNoF+ofn3rVYCbYgsrguUZdHuWcOfUraqAjOQ+uIKkpU8eWVlQI6VF3fP7sCnLm4jPxSkgbpAoF4tzFvsg8D9bwz3+qMhwoloKYeFOtcx9562I7Z9f4LZnH90uarBWmdBmI5kV85YfvNtjkeEEAT5EIFJWmpUQhO9Adri6mdF8T0O6jIxgt1DA05hKWzttz2Lzq7XAFn0mjGIfDXt8LGm4W5bCtNMJ4VkCPVru2en9Pz6zUGr7ZCR152LwYH8GCRDLdjDVYCP1KQSwkuXFxf5DY7gQWmJJsEbO5Fu92TrfCAvgtVL2q8fkO0CgunvxsALVA3FkQvipZAqh62lEMZQbFrSkBfdUFi38D4MyMNs9EilJ4cJHOoBu88jVtMNOZ/kNWHRTfL+K8v7TzVgKb1d2odNM1ESs6OllD/ZDcMoGuYjAuT76ZyOBW4qJwYIDa1bWCVEOUxYaKHsmVE02+1Bm4mwZWUEPU8J6Z+poD1WdEzTh5NIBTdpYqTmdKk5d3ClCWJ4neI1Cyn0SIgAENWLnGHq5yNHU2BhvA0gs3jvoVEONXON8MtBp0ed//XzcuKb9lsMTF6FL25pbe7i2YAAAAAAA",
+      },
+    },
+    date: "2024-02-24",
+    mdx: true,
+    technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "SVG"],
+    attributes: null,
+  },
   {
     slug: "searchlight",
     name: "Searchlight",

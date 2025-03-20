@@ -61,9 +61,6 @@ export default function ExperimentPreview({ experiments }) {
                 <span>{name}</span>
                 {externalIcon && <ExternalIcon />}
               </div>
-              <p className="text-xs sm:text-sm text-neutral-400">
-                {formatDate(date)}
-              </p>
             </div>
           </div>
         </div>
