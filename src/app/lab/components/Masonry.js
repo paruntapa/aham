@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { experiments } from "@/data/experiments";
+import { experiments } from "@/data/prayog";
 import ExperimentPreview from "@/app/lab/components/ExperimentPreview";
 import useWindowBreakpoints from "@/hooks/useWindowBreakpoints";
 

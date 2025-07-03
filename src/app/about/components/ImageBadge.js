@@ -6,8 +6,8 @@ export default function ImageBadge() {
       <Image
         src="/me.jpg"
         alt="anuj kumar's portrait photo"
-        width={800}
-        height={800}
+        width={1500}
+        height={1500}
         className="rounded-full size-16"
         priority
       />
