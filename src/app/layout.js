@@ -12,7 +12,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
   title: {
     default: "anuj . web developer . digital artist",
-    template: "%s | anuj . web developer . cg artist",
+    template: "%s | anuj . web developer",
   },
   description: "Crafting engaging experiences for the internet.",
   openGraph: {
