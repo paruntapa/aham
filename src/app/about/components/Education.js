@@ -19,7 +19,7 @@ export default function Education() {
             >
               <div className="w-full flex flex-col justify-start items-start gap-0">
                 <h3 className="font-medium text-balance">
-                  {degree} in {course}
+                  {degree}
                 </h3>
                 <p className="text-sm text-neutral-500">
                   {index === 0 ? <span> <Link href={"https://x.com/kirat_tw"}>{school}</Link> {date}</span> : <span>{school} / {date}</span>}

@@ -10,7 +10,7 @@ export const data = {
     {
       school: "Sri Guru Ram Rai University",
       degree: "Bachelor of Science",
-      course: "Information Technology",
+      course: "",
       location: "Dehradun, India",
       date: "2022 - 2025", 
     },
