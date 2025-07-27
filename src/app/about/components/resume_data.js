@@ -2,7 +2,7 @@ export const data = {
   education: [
     {
       school: "By Harkirat",
-      degree: "Web Development, Web3, DevOps",
+      degree: "Web Dev, DevOps, Web3",
       course: "Cohort 3",
       location: "India",
       date: "2024 - 2025",
