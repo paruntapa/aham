@@ -10,22 +10,22 @@ export default function Home() {
       <div className="relative h-full w-full max-w-screen-md flex flex-col justify-start items-center gap-0">
         <div className="h-32 w-full flex justify-between items-center">
           <div className="hidden sm:block h-full w-32 p-0.5 relative">
-            <VideoLink
+            {/* <VideoLink
               slug="hold-to-submit"
               className="opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-400"
-            />
+            /> */}
           </div>
           <div className="hidden lg:block h-full w-32 relative">
             <DashedLine direction="vertical" className="left-0 block" />
           </div>
           <div className="flex-1 h-full px-3 md:px-0 flex justify-center items-center relative">
             <div className="text-neutral-500 text-center">
-              Crafting{" "}
+            Where{" "}
               <span className="text-neutral-950 dark:text-neutral-50">
-                engaging experiences
+                creativity
               </span>
               <br />
-              for the internet
+              meets code
             </div>
             <DashedLine
               direction="vertical"
@@ -40,11 +40,11 @@ export default function Home() {
             <DashedLine direction="vertical" className="right-0 block" />
           </div>
           <div className="hidden sm:block h-full w-32 p-0.5 relative">
-            <VideoLink
+            {/* <VideoLink
               slug="radio-input"
               variant="square"
               className="opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-300"
-            />
+            /> */}
           </div>
         </div>
         <div className="h-auto sm:h-32 w-full flex justify-center items-center relative overflow-hidden">
@@ -61,9 +61,9 @@ export default function Home() {
           </div>
           <div className="flex-1 h-full flex justify-center items-center px-3 md:px-7 relative">
             <span className="text-neutral-500 text-center text-balance">
-              With a creative approach to development,
-              <br className="block sm:hidden md:block" /> I add intuitiveness
-              and life to my work.
+            I craft digital experiences that are intuitive, scalable,
+              <br className="block sm:hidden md:block" /> 
+              and built to feel effortless for the people who use them.
             </span>
             <DashedLine
               direction="vertical"
@@ -89,10 +89,10 @@ export default function Home() {
           <div className="h-32 hidden sm:block"></div>
           <div className="h-32 hidden lg:block"></div>
           <div className="block col-span-2 row-span-2 sm:flex items-center p-0.5 relative">
-            <VideoLink
+            {/* <VideoLink
               slug="polyrhythmic-rings"
               className="opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-100"
-            />
+            /> */}
             <DashedLine
               direction="vertical"
               className="hidden sm:block top-0 -left-px"
@@ -126,7 +126,7 @@ export default function Home() {
           <div className="h-auto w-auto sm:h-32 sm:w-32 justify-self-auto sm:justify-self-end relative">
             <div className="grid grid-cols-2 gap-0 sm:block">
               <div className="p-0.5">
-                <VideoLink
+                {/* <VideoLink
                   slug="card-stack"
                   className="block sm:hidden opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-400"
                 />
@@ -134,7 +134,7 @@ export default function Home() {
                   slug="magnetic-button"
                   variant="square"
                   className="hidden sm:block opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-400"
-                />
+                /> */}
               </div>
               <div></div>
             </div>
@@ -155,7 +155,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-px sm:block">
               <div></div>
               <div className="p-0.5">
-                <VideoLink
+                {/* <VideoLink
                   slug="card-stack"
                   className="hidden sm:block opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-500"
                 />
@@ -163,7 +163,7 @@ export default function Home() {
                   slug="magnetic-button"
                   variant="square"
                   className="block sm:hidden opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-400"
-                />
+                /> */}
               </div>
             </div>
             <DashedLine
@@ -182,10 +182,10 @@ export default function Home() {
           <div className="h-auto sm:h-32 relative">
             <div className="grid grid-cols-2 sm:hidden">
               <div className="p-0.5">
-                <VideoLink
+                {/* <VideoLink
                   slug="hold-to-submit"
                   className="opacity-100 sm:opacity-0 sm:animate-fade-zoom-in-300 !animation-delay-400"
-                />
+                /> */}
               </div>
               <div></div>
             </div>
