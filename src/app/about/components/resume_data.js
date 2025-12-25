@@ -1,4 +1,13 @@
 export const data = {
+  experience: [
+    {
+      company: "Early-Stage B2B Startup",
+      role: "Founding Engineer",
+      location: "Remote",
+      date: "March 2025 (current)",
+      technologies: ["React", "Motion", "Tailwindcss", "Postgres", "Node.js", "Express", "MQTT", "CI/CD"],
+    },
+  ],
   education: [
     {
       school: "By Harkirat",

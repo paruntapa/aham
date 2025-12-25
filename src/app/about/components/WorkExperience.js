@@ -8,7 +8,7 @@ export default function WorkExperience() {
         <h2 className="font-medium">Work Experience</h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {data.experience.map((work, index) => {
+        {data?.experience?.map((work, index) => {
           const { company, role, location, date, description } = work;
           return (
             <div

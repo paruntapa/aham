@@ -42,13 +42,13 @@ export default function About() {
               build GLSL shaders, and exploring ideas for my next 3D project.
             </p>
           </div>
-          {/* <MobileSocialLinks />
+          <MobileSocialLinks />
           <div className="w-full relative hidden sm:block">
             <DashedLine direction="horizontal" className="top-0" />
           </div>
           <div className="w-full flex flex-col gap-4 text-neutral-700 dark:text-neutral-300 leading-7 relative">
-            {/* <WorkExperience /> */}
-          {/* </div> */}
+            <WorkExperience />
+          </div>
           <div className="w-full relative"> 
             <DashedLine
               direction="horizontal"
