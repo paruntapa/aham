@@ -83,7 +83,7 @@ export default function Home() {
               <DashedLine direction="horizontal" className="top-0" />
             </div>
           </div>
-          <DashedLine direction="horizontal" className="bottom-0 sm:bottom-0" />
+          <DashedLine direction="horizontal" className="hidden sm:block bottom-0 sm:bottom-0" />
         </div>
         <div className="h-auto w-full flex flex-col sm:grid sm:grid-cols-4 lg:grid-cols-6 gap-0 relative">
           <div className="h-32 hidden sm:block"></div>
@@ -138,18 +138,18 @@ export default function Home() {
               </div>
               <div></div>
             </div>
-            <DashedLine
+            {/* <DashedLine
               direction="vertical"
               className="top-0 left-1/2 sm:-left-px"
-            />
-            <DashedLine
+            /> */}
+            {/* <DashedLine
               direction="vertical"
               className="block sm:hidden left-1/2"
             />
             <DashedLine
               direction="horizontal"
               className="block sm:hidden bottom-0"
-            />
+            /> */}
           </div>
           <div className="h-auto w-auto sm:h-32 sm:w-32 justify-self-start pb-px relative">
             <div className="grid grid-cols-2 gap-px sm:block">
@@ -170,14 +170,14 @@ export default function Home() {
               direction="vertical"
               className="hidden sm:block top-0 -right-px"
             />
-            <DashedLine
+            {/* <DashedLine
               direction="vertical"
               className="block sm:hidden left-1/2"
             />
             <DashedLine
               direction="horizontal"
               className="block sm:hidden bottom-0"
-            />
+            /> */}
           </div>
           <div className="h-auto sm:h-32 relative">
             <div className="grid grid-cols-2 sm:hidden">
