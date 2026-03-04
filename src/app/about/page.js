@@ -49,7 +49,7 @@ export default function About() {
           {/* <div className="w-full flex flex-col gap-4 text-neutral-700 dark:text-neutral-300 leading-7 relative">
             <WorkExperience />
           </div> */}
-          <div className="w-full relative"> 
+          {/* <div className="w-full relative"> 
             <DashedLine
               direction="horizontal"
               className="top-0 hidden sm:block"
@@ -58,7 +58,7 @@ export default function About() {
               direction="horizontal"
               className="block sm:hidden top-0 left-1/2 -translate-x-1/2"
             />
-          </div>
+          </div> */}
           <div className="w-full flex flex-col gap-4 text-neutral-700 dark:text-neutral-300 leading-7 relative">
             <Education />
           </div>
