@@ -5,7 +5,7 @@ export const experiments = [
       name: "Rental",
       type: "external",
       href: {
-        url: "https://rental.telzac.site/",
+        url: "",
         type: "github",
       },
       preview: {
