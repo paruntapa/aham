@@ -5,7 +5,7 @@ export const experiments = [
     name: "Rental",
     type: "external",
     href: {
-      url: "https://rental.telzac.site/",
+      url: "",
       type: "github",
     },
     preview: {
@@ -25,10 +25,10 @@ export const experiments = [
   {
     slug: "neon-components",
     name: "Neon Components",
-    type: "external",
+    type: "internal",
     href: {
-      url: "https://neon-comps.onrender.com/",
-      type: "production",
+      url: "https://neon.telzac.com/",
+      type: "github",
     },
     preview: {
       base: {
@@ -50,8 +50,8 @@ export const experiments = [
     name: "Cuberto Agency",
     type: "external",
     href: {
-      url: "https://kyuberto.vercel.app/",
-      type: "production",
+      url: "https://kyuberto.telzac.com/",
+      type: "github",
     },
     preview: {
       base: {
