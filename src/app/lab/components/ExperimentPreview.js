@@ -2,17 +2,19 @@ import Link from "next/link";
 import { formatDate } from "@/helpers/date";
 
 export default function ExperimentPreview({ experiments }) {
-  const { slug, name, preview, date } = experiments;
+  const { slug, name, preview, date, description } = experiments;
 
   let href = "";
   let target = "_self";
   let externalIcon = false;
-  if (experiments.type === "internal" || experiments.mdx === true) {
-    href = `/lab/`;
-  } else {
+  if (experiments.href?.url && experiments.href.url.trim() !== "") {
     href = experiments.href.url;
     target = "_blank";
     externalIcon = true;
+  } else if (experiments.type === "internal" || experiments.mdx === true) {
+    href = `/lab/${slug}`;
+  } else {
+    href = `/lab`;
   }
   const resolution = {
     width: preview.base.width,
@@ -25,7 +27,7 @@ export default function ExperimentPreview({ experiments }) {
       prefetch={true}
       href={href}
       target={target}
-      className="w-full h-auto group rounded-xl outline-none focus-visible:ring-1 ring-neutral-950 dark:ring-neutral-50"
+      className="w-full h-auto group rounded-xl outline-none focus-visible:ring-1 ring-neutral-950 dark:ring-neutral-50 block"
     >
       <div className="w-full h-auto p-1 rounded-xl bg-gradient-to-t from-neutral-300 dark:from-neutral-850 to-neutral-200 dark:to-neutral-925 border border-neutral-300 dark:border-neutral-850">
         <div
@@ -55,13 +57,30 @@ export default function ExperimentPreview({ experiments }) {
             }}
           />
           <div className="absolute top-0 left-0 h-full w-full z-30 bg-gradient-to-b opacity-75 from-transparent from-0% to-neutral-925 group-hover:opacity-95 transition-all duration-500" />
-          <div className="absolute top-0 left-0 h-full w-full z-40">
+          
+          {/* Resting Title overlay (visible when not hovered) */}
+          <div className="absolute top-0 left-0 h-full w-full z-30 pointer-events-none transition-opacity duration-200 group-hover:opacity-0">
             <div className="p-3 sm:p-4 w-full h-full flex justify-between items-end">
               <div className="text-xs sm:text-sm text-neutral-300 flex gap-1 justify-start items-center">
                 <span>{name}</span>
                 {externalIcon && <ExternalIcon />}
               </div>
             </div>
+          </div>
+
+          {/* Hover Description Drawer: pops up from below covering ~30% height of the box */}
+          <div className="absolute inset-x-0 bottom-0 h-[30%] min-h-[3.75rem] max-h-[36%] z-40 bg-neutral-950/85 backdrop-blur-md border-t border-neutral-800/80 px-3 sm:px-4 py-2 sm:py-2.5 flex flex-col justify-center translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] pointer-events-none">
+            <div className="flex items-center justify-between gap-1.5">
+              <div className="text-xs sm:text-sm font-medium text-neutral-150 flex items-center gap-1">
+                <span>{name}</span>
+                {externalIcon && <ExternalIcon />}
+              </div>
+            </div>
+            {description && (
+              <p className="text-[11px] sm:text-xs text-neutral-400 leading-snug line-clamp-2 mt-0.5 sm:mt-1 font-normal">
+                {description}
+              </p>
+            )}
           </div>
         </div>
       </div>

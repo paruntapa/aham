@@ -1,50 +1,4 @@
 export const experiments = [
-  
-  {
-    slug: "rental",
-    name: "Rental",
-    type: "external",
-    href: {
-      url: "",
-      type: "github",
-    },
-    preview: {
-      base: {
-        type: "video",
-        width: 1150,
-        height: 720,
-        placeholder:
-          "data:image/webp;base64,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",
-      },
-    },
-    date: "2023-01-15",
-    mdx: false,
-    technologies: ["Rust", "Tauri", "Krita"],
-    attributes: null,
-  },
-  {
-    slug: "neon-components",
-    name: "Neon Components",
-    type: "internal",
-    href: {
-      url: "https://neon.telzac.com/",
-      type: "github",
-    },
-    preview: {
-      base: {
-        type: "video",
-        width: 864,
-        height: 540,
-        placeholder:
-          "data:image/webp;base64,UklGRroEAABXRUJQVlA4WAoAAAAgAAAAVQAANQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDggzAIAABAQAJ0BKlYANgA+KRKHQiGhC1WaSAwBQlpard/+Yjr8C6AG7DLAriPWglvDK/+z52vcv1Uf9r2APRN/W4NLBAwCxTf2SUY2HsMPxWF+84Nds7tOmxfjajyfoVLbfbzGdyvjoSy+YEPTD0RNU8v1X7Er86pdQZhTt8OKbikf/2VbSGhjv+Sl7wsAAP7+kdzLISkgZ32fNYfHsMG8YL5swt2wz/ai3XpLjuJwJxxU0I+5KD/QZd3sG7gqktYs25Y+VldzQ/09Vmt+SwsoeGPE7+tBtkLEwv0H+EwjEGk4uFmQWYKLvzyTZLyO6wV1vAcqHKGTqrenoUlwCg+Hz96EVK7O8DnTEAXtAiQNoF+ofn3rVYCbYgsrguUZdHuWcOfUraqAjOQ+uIKkpU8eWVlQI6VF3fP7sCnLm4jPxSkgbpAoF4tzFvsg8D9bwz3+qMhwoloKYeFOtcx9562I7Z9f4LZnH90uarBWmdBmI5kV85YfvNtjkeEEAT5EIFJWmpUQhO9Adri6mdF8T0O6jIxgt1DA05hKWzttz2Lzq7XAFn0mjGIfDXt8LGm4W5bCtNMJ4VkCPVru2en9Pz6zUGr7ZCR152LwYH8GCRDLdjDVYCP1KQSwkuXFxf5DY7gQWmJJsEbO5Fu92TrfCAvgtVL2q8fkO0CgunvxsALVA3FkQvipZAqh62lEMZQbFrSkBfdUFi38D4MyMNs9EilJ4cJHOoBu88jVtMNOZ/kNWHRTfL+K8v7TzVgKb1d2odNM1ESs6OllD/ZDcMoGuYjAuT76ZyOBW4qJwYIDa1bWCVEOUxYaKHsmVE02+1Bm4mwZWUEPU8J6Z+poD1WdEzTh5NIBTdpYqTmdKk5d3ClCWJ4neI1Cyn0SIgAENWLnGHq5yNHU2BhvA0gs3jvoVEONXON8MtBp0ed//XzcuKb9lsMTF6FL25pbe7i2YAAAAAAA",
-      },
-    },
-    date: "2024-02-24",
-    mdx: true,
-    technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "SVG"],
-    attributes: null,
-  },
-  
   {
     slug: "cuberto-agency",
     name: "Cuberto Agency",
@@ -63,6 +17,8 @@ export const experiments = [
       },
     },
     date: "2023-06-15",
+    description:
+      "Interactive agency showcase featuring fluid physics and cursor-reactive animations.",
     mdx: false,
     technologies: [
       "Next.js",
@@ -74,6 +30,80 @@ export const experiments = [
     ],
     attributes: null,
   },
+
+  {
+    slug: "combat",
+    name: "Combat",
+    type: "external",
+    href: {
+      url: "https://landing-reveal.vercel.app/",
+      type: "production",
+    },
+    preview: {
+      base: {
+        type: "video",
+        width: 1264,
+        height: 720,
+        placeholder:
+          "data:image/webp;base64,UklGRsACAABXRUJQVlA4WAoAAAAgAAAAPwAAPwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDgg0gAAABAHAJ0BKkAAQAA+KRCHQiGhCoWa6AwBQlpAAPkyLE70xpIXG6HvIa/7zjP5g4+2OE4h9eDLAzlrnlsrWS3CaMFAAP7+0B1jbJx+ecUdd0DNXf3mB3wJ0VR3rCkG7YY6pVLUWptBBEvxvlvx1X6DOD2EAFdqNXpIYTsEIpVaovyk9/iRQ11InumOeUIiKroftPocGEsS9nb5FvTcYl8bY87I+kc35445XBoZiJr4CQWOQysdTbMgpGtBB7NWup/s1fNf+yRcHHrBUWyVv1HcSEAAAA==",
+      },
+    },
+    date: "2022-08-13",
+    mdx: false,
+    technologies: ["Vue.js", "TypeScript", "Blender", "Mixamo"],
+    attributes: null,
+  },
+
+  {
+    slug: "rental",
+    name: "Rental",
+    type: "external",
+    href: {
+      url: "",
+      type: "github",
+    },
+    preview: {
+      base: {
+        type: "video",
+        width: 1150,
+        height: 720,
+        placeholder:
+          "data:image/webp;base64,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",
+      },
+    },
+    date: "2023-01-15",
+    description:
+      "Crisp rental UI engineered with love.",
+    mdx: false,
+    technologies: ["Rust", "Tauri", "Krita"],
+    attributes: null,
+  },
+
+  {
+    slug: "neon-components",
+    name: "Neon Components",
+    type: "internal",
+    href: {
+      url: "https://neon.telzac.com/",
+      type: "github",
+    },
+    preview: {
+      base: {
+        type: "video",
+        width: 864,
+        height: 540,
+        placeholder:
+          "data:image/webp;base64,UklGRroEAABXRUJQVlA4WAoAAAAgAAAAVQAANQAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDggzAIAABAQAJ0BKlYANgA+KRKHQiGhC1WaSAwBQlpard/+Yjr8C6AG7DLAriPWglvDK/+z52vcv1Uf9r2APRN/W4NLBAwCxTf2SUY2HsMPxWF+84Nds7tOmxfjajyfoVLbfbzGdyvjoSy+YEPTD0RNU8v1X7Er86pdQZhTt8OKbikf/2VbSGhjv+Sl7wsAAP7+kdzLISkgZ32fNYfHsMG8YL5swt2wz/ai3XpLjuJwJxxU0I+5KD/QZd3sG7gqktYs25Y+VldzQ/09Vmt+SwsoeGPE7+tBtkLEwv0H+EwjEGk4uFmQWYKLvzyTZLyO6wV1vAcqHKGTqrenoUlwCg+Hz96EVK7O8DnTEAXtAiQNoF+ofn3rVYCbYgsrguUZdHuWcOfUraqAjOQ+uIKkpU8eWVlQI6VF3fP7sCnLm4jPxSkgbpAoF4tzFvsg8D9bwz3+qMhwoloKYeFOtcx9562I7Z9f4LZnH90uarBWmdBmI5kV85YfvNtjkeEEAT5EIFJWmpUQhO9Adri6mdF8T0O6jIxgt1DA05hKWzttz2Lzq7XAFn0mjGIfDXt8LGm4W5bCtNMJ4VkCPVru2en9Pz6zUGr7ZCR152LwYH8GCRDLdjDVYCP1KQSwkuXFxf5DY7gQWmJJsEbO5Fu92TrfCAvgtVL2q8fkO0CgunvxsALVA3FkQvipZAqh62lEMZQbFrSkBfdUFi38D4MyMNs9EilJ4cJHOoBu88jVtMNOZ/kNWHRTfL+K8v7TzVgKb1d2odNM1ESs6OllD/ZDcMoGuYjAuT76ZyOBW4qJwYIDa1bWCVEOUxYaKHsmVE02+1Bm4mwZWUEPU8J6Z+poD1WdEzTh5NIBTdpYqTmdKk5d3ClCWJ4neI1Cyn0SIgAENWLnGHq5yNHU2BhvA0gs3jvoVEONXON8MtBp0ed//XzcuKb9lsMTF6FL25pbe7i2YAAAAAAA",
+      },
+    },
+    date: "2024-02-24",
+    description:
+      "Futuristic glowing UI components powered by SVG filters, motion effects, and vibrant aesthetics.",
+    mdx: true,
+    technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "SVG"],
+    attributes: null,
+  },
+
   {
     slug: "polyrhythmic-rings",
     name: "Polyrhythmic Rings",
@@ -96,6 +126,7 @@ export const experiments = [
     technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "SVG"],
     attributes: null,
   },
+
   {
     slug: "searchlight",
     name: "Searchlight",
@@ -125,8 +156,7 @@ export const experiments = [
     technologies: ["HTML", "CSS"],
     attributes: null,
   },
- 
-  
+
   {
     slug: "laser-progress-beam",
     name: "Laser Progress Beam",
@@ -149,11 +179,12 @@ export const experiments = [
     technologies: ["HTML", "CSS"],
     attributes: null,
   },
+
   {
     slug: "radio-input",
     name: "Radio Input",
     type: "internal",
-     href: {
+    href: {
       url: "https://polyrhythmic-rings.vercel.app/",
       type: "production",
     },
@@ -180,6 +211,7 @@ export const experiments = [
       keyBoardAccessibility: true,
     },
   },
+
   {
     slug: "hold-to-submit",
     name: "Hold to Submit",
@@ -205,7 +237,7 @@ export const experiments = [
       touchAccessibility: true,
     },
   },
- 
+
   {
     slug: "card-stack",
     name: "Card Stack",
@@ -228,7 +260,7 @@ export const experiments = [
     technologies: ["HTML", "CSS", "JavaScript"],
     attributes: null,
   },
-  
+
   {
     slug: "border-highlight",
     name: "Border Highlight",
@@ -251,12 +283,12 @@ export const experiments = [
     technologies: ["HTML", "CSS"],
     attributes: null,
   },
-  
+
   {
     slug: "magnetic-button",
     name: "Magnetic Button",
     type: "internal",
-     href: {
+    href: {
       url: "https://polyrhythmic-rings.vercel.app/",
       type: "production",
     },
@@ -283,27 +315,5 @@ export const experiments = [
       pointerDeviceOnly: true,
     },
   },
-  {
-    slug: "combat",
-    name: "Combat",
-    type: "external",
-    href: {
-      url: "https://landing-reveal.vercel.app/",
-      type: "production",
-    },
-    preview: {
-      base: {
-        type: "video",
-        width: 1264,
-        height: 720,
-        placeholder:
-          "data:image/webp;base64,UklGRsACAABXRUJQVlA4WAoAAAAgAAAAPwAAPwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDgg0gAAABAHAJ0BKkAAQAA+KRCHQiGhCoWa6AwBQlpAAPkyLE70xpIXG6HvIa/7zjP5g4+2OE4h9eDLAzlrnlsrWS3CaMFAAP7+0B1jbJx+ecUdd0DNXf3mB3wJ0VR3rCkG7YY6pVLUWptBBEvxvlvx1X6DOD2EAFdqNXpIYTsEIpVaovyk9/iRQ11InumOeUIiKroftPocGEsS9nb5FvTcYl8bY87I+kc35445XBoZiJr4CQWOQysdTbMgpGtBB7NWup/s1fNf+yRcHHrBUWyVv1HcSEAAAA==",
-      },
-    },
-    date: "2022-08-13",
-    mdx: false,
-    technologies: ["Vue.js", "TypeScript", "Blender", "Mixamo"],
-    attributes: null,
-  },
-  
+
 ];
