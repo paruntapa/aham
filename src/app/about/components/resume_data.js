@@ -1,7 +1,7 @@
 export const data = {
   experience: [
     {
-      company: "Early-Stage B2B Startup",
+      company: "Ezwiiz Frontier Systems",
       role: "Founding Engineer",
       location: "Remote",
       date: "March 2025 (current)",
@@ -10,18 +10,25 @@ export const data = {
   ],
   education: [
     {
+      school: "Sri Guru Ram Rai University",
+      degree: "Bachelor of Science",
+      course: "",
+      location: "Dehradun, India",
+      date: "2022 - 2025",
+    },
+    {
       school: "By Harkirat",
-      degree: "Web Dev, DevOps, Web3",
+      degree: "100xDevs Cohort 3.0 Web Dev, DevOps, Web3",
       course: "Cohort 3",
       location: "India",
       date: "2024 - 2025",
     },
     {
-      school: "Sri Guru Ram Rai University",
-      degree: "Bachelor of Science",
-      course: "",
-      location: "Dehradun, India",
-      date: "2022 - 2025", 
+      school: "By Harkirat",
+      degree: "100xSchool Combined Bootcamp",
+      course: "Cohort 3",
+      location: "India",
+      date: "2026",
     },
   ],
   certifications: [
