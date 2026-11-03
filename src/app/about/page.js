@@ -39,7 +39,7 @@ export default function About() {
             <p className="w-full">
               My work revolves around TypeScript, React, Next.js, React Native, Node.js, and Bun,
               with a strong focus on PostgreSQL, Redis, real-time communication, and system
-              architecture. Lately, I've been exploring AI-powered applications, LLM integrations,
+              architecture. Lately, I&#39; have been exploring AI-powered applications, LLM integrations,
               and ways to build more intelligent, useful products.
             </p>
           </div>
@@ -47,10 +47,10 @@ export default function About() {
           <div className="w-full relative hidden sm:block">
             <DashedLine direction="horizontal" className="top-0" />
           </div>
-          {/* <div className="w-full flex flex-col gap-4 text-neutral-700 dark:text-neutral-300 leading-7 relative">
+          <div className="w-full flex flex-col gap-4 text-neutral-700 dark:text-neutral-300 leading-7 relative">
             <WorkExperience />
-          </div> */}
-          {/* <div className="w-full relative"> 
+          </div>
+          <div className="w-full relative">
             <DashedLine
               direction="horizontal"
               className="top-0 hidden sm:block"
@@ -59,7 +59,7 @@ export default function About() {
               direction="horizontal"
               className="block sm:hidden top-0 left-1/2 -translate-x-1/2"
             />
-          </div> */}
+          </div>
           <div className="w-full flex flex-col gap-4 text-neutral-700 dark:text-neutral-300 leading-7 relative">
             <Education />
           </div>
